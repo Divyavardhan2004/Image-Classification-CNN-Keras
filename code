@@ -1,0 +1,26 @@
+import numpy as np
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Conv2D, Activation, MaxPooling2D, Dense, Flatten
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+Load Dataset
+X_train = # Your Code here #
+Y_train = # Your Code here #
+
+X_test = # Your Code here #
+Y_test = # Your Code here #
+print("Shape of X_train: ", X_train.shape)
+print("Shape of Y_train: ", Y_train.shape)
+print("Shape of X_test: ", X_test.shape)
+print("Shape of Y_test: ", Y_test.shape)
+Model
+model = Sequential([
+    # Your Code starts here #
+    
+    
+    
+    # Your Code ends here #
+])
+model.compile( ''' # Your Code here # ''' )
+model.fit( ''' # Your Code here # ''' )
+Evaluate performance on Test Dataset
+model.evaluate( ''' # Your Code here # ''' )
